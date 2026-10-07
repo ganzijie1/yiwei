@@ -1,0 +1,192 @@
+{
+  "model": "historically timed multilayer principal-agent spatial state-space model",
+  "nodes": [
+    "Aodi",
+    "Keelung",
+    "Taipei",
+    "Taoyuan",
+    "Hsinchu",
+    "Miaoli",
+    "Taichung",
+    "Changhua",
+    "Yunlin",
+    "Chiayi",
+    "Tainan",
+    "Pingtung",
+    "MountainInterior"
+  ],
+  "months": 127,
+  "layers": [
+    "transport",
+    "social mobilization",
+    "governance",
+    "disease mobility"
+  ],
+  "principal_agent_layers": [
+    "Japanese center and Governor-General",
+    "local administration",
+    "police and direct enforcement",
+    "local elites, hoko and auxiliary groups",
+    "households and villages"
+  ],
+  "leaders_in_hypergraph": [
+    "Tang Jingsong",
+    "Liu Yongfu",
+    "Wu Tangxing",
+    "Jiang Shaozu",
+    "Xu Xiang",
+    "Wu Pengnian",
+    "Jiang Guohui",
+    "Huang Niangsheng",
+    "Hu Jiayou",
+    "Xiao Guangming",
+    "Qiu Fengyang",
+    "Ke Tie"
+  ],
+  "latent_strategy_states": [
+    "advance",
+    "coercive consolidation",
+    "institutional governance"
+  ],
+  "calibration": {
+    "disease_cases": 26094.0,
+    "disease_deaths": 4642.0,
+    "fiscal_gap_1896_million_yen": 3.9999999999999987,
+    "first_fiscal_self_reliance_year": 1905
+  },
+  "ensemble_200": {
+    "resistance_1902_p05_p50_p95": [
+      0.3439540521423728,
+      0.35146568779037,
+      0.361255723354895
+    ],
+    "governance_1902_p05_p50_p95": [
+      0.5436634861300343,
+      0.5541909238124245,
+      0.5650760188415375
+    ],
+    "cumulative_cost_p05_p50_p95": [
+      1682.6382657832478,
+      1687.9736685562916,
+      1693.1076775888253
+    ],
+    "fiscal_self_reliance_years": [
+      1905
+    ],
+    "social_trust_1902_p05_p50_p95": [
+      0.4884108907901177,
+      0.511082863859694,
+      0.5374303450571173
+    ],
+    "identity_alignment_1902_p05_p50_p95": [
+      0.024674632144997148,
+      0.025995298072851718,
+      0.027418452385309544
+    ],
+    "mainland_contact_1902_p05_p50_p95": [
+      0.021492650471374435,
+      0.021638780683274086,
+      0.021779991638007045
+    ],
+    "dual_loyalty_1902_p05_p50_p95": [
+      0.05453439768980977,
+      0.05549210871481411,
+      0.05654395537220669
+    ],
+    "committed_type_loyal_state_1902_p05_p50_p95": [
+      0.6245383610941461,
+      0.6320358997504932,
+      0.6385194787401648
+    ],
+    "agent_compliance_1902_p05_p50_p95": [
+      0.7596346941016997,
+      0.764526416121402,
+      0.7696821423342678
+    ],
+    "broker_spectral_radius_1902_p05_p50_p95": [
+      1.9250914589161945,
+      1.9438419836486864,
+      1.9677777363672384
+    ],
+    "broker_algebraic_connectivity_1902_p05_p50_p95": [
+      0.1088918707076775,
+      0.10993137563354166,
+      0.11110189315500948
+    ],
+    "broker_weighted_clustering_1902_p05_p50_p95": [
+      0.03820678451906463,
+      0.03893513915512031,
+      0.03952983313835425
+    ]
+  },
+  "agent_type_model": {
+    "types": [
+      "committed_collaborator",
+      "institutional_careerist",
+      "material_opportunist",
+      "local_broker",
+      "coerced_participant"
+    ],
+    "baseline_population_weighted_shares": {
+      "committed_collaborator": 0.1429093373955162,
+      "institutional_careerist": 0.2338663910299087,
+      "material_opportunist": 0.23339938328621704,
+      "local_broker": 0.24128145918887914,
+      "coerced_participant": 0.14854342909947896
+    },
+    "baseline_type_loyalty_1902": {
+      "committed_collaborator": {
+        "loyal": 0.6409620597007167,
+        "opportunistic": 0.31342621244001134,
+        "dual": 0.027274449735874874,
+        "exit": 0.01833727812339699
+      },
+      "institutional_careerist": {
+        "loyal": 0.3993677487004578,
+        "opportunistic": 0.5220226738094514,
+        "dual": 0.032412827838835805,
+        "exit": 0.04619674965125481
+      },
+      "material_opportunist": {
+        "loyal": 0.13773226571725106,
+        "opportunistic": 0.7426524448725719,
+        "dual": 0.05757348528929374,
+        "exit": 0.06204180412088308
+      },
+      "local_broker": {
+        "loyal": 0.15649995001317318,
+        "opportunistic": 0.6865498090869672,
+        "dual": 0.11454364464964342,
+        "exit": 0.042406596250216325
+      },
+      "coerced_participant": {
+        "loyal": 0.31753409470110566,
+        "opportunistic": 0.5810023049184749,
+        "dual": 0.023918334539303306,
+        "exit": 0.07754526584111603
+      }
+    },
+    "warning": "Latent classes and shares are structural priors, not observed historical population categories."
+  },
+  "baseline_agency_1902": {
+    "administration_effort": 0.6875797774273193,
+    "police_effort": 0.590604441061692,
+    "intermediary_effort": 0.38700446042426356,
+    "household_reporting": 0.38788441063398854,
+    "agency_rent": 0.3079056915967765,
+    "information_distortion": 0.28787099795317994,
+    "social_trust": 0.5518103540682613,
+    "economic_output": 0.5832271556383807,
+    "extraction_rate": 0.37412519194839294,
+    "identity_alignment": 0.02840815051146132,
+    "mainland_clandestine_contact": 0.021587858724769603,
+    "regulated_cross_strait_trade": 0.20766835470995515
+  },
+  "baseline_complex_network_1902": {
+    "broker_network_density": 0.6941758524338546,
+    "broker_spectral_radius": 1.9750383091530967,
+    "broker_algebraic_connectivity": 0.11162498696289526,
+    "broker_weighted_clustering": 0.03900989450688615
+  },
+  "interpretation": "Network states and strategy beliefs are latent explanatory constructs, not observed historical measurements."
+}

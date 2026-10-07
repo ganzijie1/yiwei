@@ -1,0 +1,22 @@
+{
+  "historical_calibration_targets": {
+    "battle_deaths": 164,
+    "battle_wounded": 515,
+    "disease_cases": 26094,
+    "disease_deaths": 4642,
+    "fiscal_gap_1896_million_yen": 4.0,
+    "fiscal_self_reliance_reference": "approximately 1904-1905"
+  },
+  "model_output": {
+    "battle_deaths": 164.00000000000003,
+    "battle_wounded": 515.0,
+    "disease_cases": 26094.0,
+    "disease_deaths": 4642.0,
+    "disease_to_battle_death_ratio": 28.304878048780484,
+    "fiscal_gap_1896_million_yen": 3.9999999999999982,
+    "first_fiscal_self_reliance_year": 1904,
+    "resistance_index_1902": 0.12552227829752646
+  },
+  "sensitivity_scenario_count": 48,
+  "warning": "Latent control/resistance/governance indices are explanatory constructs, not observed historical series."
+}

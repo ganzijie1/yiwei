@@ -1,0 +1,94 @@
+{
+  "model": "Bayesian incomplete-information jump with stratified SI warning diffusion",
+  "historical_clock": {
+    "t0": "1895-04-17",
+    "landing": "1895-05-29"
+  },
+  "hidden_state": [
+    "coercive intent",
+    "landing time",
+    "landing sector"
+  ],
+  "observer_state": [
+    "sector posterior",
+    "warning reach",
+    "local readiness"
+  ],
+  "scenarios": [
+    {
+      "scenario": "historical_asymmetry_stress",
+      "trajectories": 30000,
+      "correct_sector_posterior_at_horizon": 0.4277776035097505,
+      "normalized_location_entropy": 0.8238953233461818,
+      "elite_awareness_index": 0.2593291526099379,
+      "local_organizer_awareness_index": 0.20264656884700047,
+      "public_awareness_index": 0.07963495064263033,
+      "information_stratification_range": 0.18058550226749454,
+      "local_readiness_index": 0.08912341892248388,
+      "unrecognized_at_landing": 1.0,
+      "mean_information_window_days": 11.0,
+      "surprise_opportunity_index": 0.42148400476818476,
+      "warning": "Synthetic mechanism output, not a measured historical population share."
+    },
+    {
+      "scenario": "pungdo_informed_prior",
+      "trajectories": 30000,
+      "correct_sector_posterior_at_horizon": 0.42867697859504006,
+      "normalized_location_entropy": 0.8230425244643493,
+      "elite_awareness_index": 0.3033240900305315,
+      "local_organizer_awareness_index": 0.22487085102370855,
+      "public_awareness_index": 0.08470719646779568,
+      "information_stratification_range": 0.2189634108650277,
+      "local_readiness_index": 0.0962676007115495,
+      "unrecognized_at_landing": 1.0,
+      "mean_information_window_days": 11.0,
+      "surprise_opportunity_index": 0.40717410395372466,
+      "warning": "Synthetic mechanism output, not a measured historical population share."
+    },
+    {
+      "scenario": "broad_early_warning",
+      "trajectories": 30000,
+      "correct_sector_posterior_at_horizon": 0.6445431588178029,
+      "normalized_location_entropy": 0.40773798794053934,
+      "elite_awareness_index": 0.544415055523683,
+      "local_organizer_awareness_index": 0.7740745245106831,
+      "public_awareness_index": 0.6325915155392154,
+      "information_stratification_range": 0.236769231096844,
+      "local_readiness_index": 0.35059719131977324,
+      "unrecognized_at_landing": 0.5974,
+      "mean_information_window_days": 8.273733333333332,
+      "surprise_opportunity_index": 0.0713205594559446,
+      "warning": "Synthetic mechanism output, not a measured historical population share."
+    },
+    {
+      "scenario": "precise_location_intelligence",
+      "trajectories": 30000,
+      "correct_sector_posterior_at_horizon": 0.9917316186771546,
+      "normalized_location_entropy": 0.013477670860659778,
+      "elite_awareness_index": 0.5171207170975235,
+      "local_organizer_awareness_index": 0.4167477355314897,
+      "public_awareness_index": 0.21052280854864383,
+      "information_stratification_range": 0.3083677720246065,
+      "local_readiness_index": 0.2809887817416567,
+      "unrecognized_at_landing": 0.9961,
+      "mean_information_window_days": 10.996266666666667,
+      "surprise_opportunity_index": 0.005185610745171537,
+      "warning": "Synthetic mechanism output, not a measured historical population share."
+    },
+    {
+      "scenario": "integrated_warning_network",
+      "trajectories": 30000,
+      "correct_sector_posterior_at_horizon": 0.9935950179179929,
+      "normalized_location_entropy": 0.008108695636886694,
+      "elite_awareness_index": 0.6794449905325821,
+      "local_organizer_awareness_index": 0.8913878728975347,
+      "public_awareness_index": 0.8086945944449996,
+      "information_stratification_range": 0.21315664720202243,
+      "local_readiness_index": 0.5680613823057372,
+      "unrecognized_at_landing": 0.20566666666666666,
+      "mean_information_window_days": 5.408533333333334,
+      "surprise_opportunity_index": 0.0008320718654593625,
+      "warning": "Synthetic mechanism output, not a measured historical population share."
+    }
+  ]
+}
